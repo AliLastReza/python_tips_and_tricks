@@ -5,14 +5,22 @@
 <!-- vscode-markdown-toc -->
 
 - [فهرست](#)
+- [برگه تقلب ها | Cheat Sheets](#CheatSheets)
 - [نکات](#-1)
   - [تو JSON کلید (یا همون name) نمیتونه عدد (Integer) باشه](#JSONnameInteger)
+- [ترفندها](#-1)
+  - [تبدیل دیکشنری به ابجکت Converting Dict to Object](#ConvertingDicttoObject)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
+
+## <a name='CheatSheets'></a>برگه تقلب ها | Cheat Sheets
+
+- [w3schools Python String format() Method](https://www.w3schools.com/python/ref_string_format.asp)
+- [pyformat.info](https://pyformat.info/)
 
 ## <a name='-1'></a>نکات
 
@@ -34,9 +42,9 @@
 
 وقتی تو پایتون یک دیکشنری که کلید عددی داره رو json.dumps میکنیم بعدا اگر json.loads اش کنیم اون کلید عددی که تو دیکشنری داشتیم به عدد تبدیل نمیشه دوباره چون تو JSON کلید یا name عددی نداریم.
 
-## ترفندها
+## <a name='-1'></a>ترفندها
 
-### تبدیل دیکشنری به ابجکت Converting Dict to Object
+### <a name='ConvertingDicttoObject'></a>تبدیل دیکشنری به ابجکت Converting Dict to Object
 
 راه های مختلفی وجود داره برای تبدیل دیکشنری به ابجکت ([راه های دیگه](https://stackoverflow.com/questions/1305532/how-to-convert-a-nested-python-dict-to-object))، راهی که من خوشم اومد ازش، استفاده از پکیج [munch](https://github.com/Infinidat/munch) هست.
 
@@ -63,4 +71,3 @@ pip install munch
 تو گیت هابش آموزش داده چطور از قابلیت های مختلفش استفاده کنید.
 
 https://github.com/Infinidat/munch
-
